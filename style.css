@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;1,700&display=swap');
+
+html {
+	background-color: hsl(204, 43%, 93%);
+	font-family: 'Karla', sans-serif;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	margin: 40px 10px 40px 10px;
+	
+}
+.top {
+	background-color: white;
+	padding: 15px;
+	border-radius: 5px 5px 0px 0px;
+	
+}
+.top h1, .top h2 {
+	font-size: 100%;
+}
+.top h1 {
+	color: hsl(179, 62%, 43%);
+}
+.top h2{
+	color: hsl(71, 73%, 54%);
+}
+.top p {
+	color: hsl(218, 22%, 67%);
+	font-size: 80%;
+	line-height: 20px;
+}
+.down {
+	display: flex;
+	flex-direction: column;
+}
+.one {
+	background-color: hsl(179, 62%, 43%);
+	padding: 15px;
+	color: white;
+}
+.one h2 {
+	font-size: 100%;
+	color: white;
+}
+.one p {
+	font-weight: 200;
+}
+.one p span {
+	font-size: 130%;
+	font-weight: 700;
+	color: white;
+}
+.one button {
+	background-color: hsl(71, 73%, 54%);
+	text-align: center;
+	width: 80%;
+	padding: 10px;
+	border: 0px;
+	color: white;
+	border-radius: 5px;
+	margin-left: 10%;
+}
+.two {
+	color: white;
+	background-color: mediumturquoise;
+	padding: 15px;
+	border-radius: 0px 0px 5px 5px;
+}
+.two h3 {
+	font-size: 100%;
+}
+.two p {
+	font-weight: 200;
+}
+@media screen and (min-width: 700px) {
+	main {
+		max-width: 70%;
+		margin-top: 5%;
+		margin-left: 15%;
+	}
+	.down {
+		flex-direction: row;
+	}
+	.one {
+		width: 50%;
+		border-radius: 0px 0px 0px 5px;
+	}
+	.two {
+		width: 50%;
+		border-radius: 0px 0px 5px 0px;
+	}
+}
